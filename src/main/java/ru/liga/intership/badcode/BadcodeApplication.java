@@ -11,5 +11,6 @@ public class BadcodeApplication {
 		SpringApplication.run(BadcodeApplication.class, args);
 		CalculatorService calculatorService = new CalculatorService();
 		calculatorService.getAverageBMI();
+//		ввв
 	}
 }
