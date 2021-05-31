@@ -2,14 +2,15 @@ package ru.liga.intership.badcode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import ru.liga.intership.badcode.service.PersonService;
+import ru.liga.intership.badcode.service.CalculatorService;
 
 @SpringBootApplication
 public class BadcodeApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		SpringApplication.run(BadcodeApplication.class, args);
-		PersonService personService = new PersonService();
-		personService.getAdultMaleUsersAverageBMI();
+		CalculatorService calculatorService = new CalculatorService();
+		calculatorService.getAverageBMI();
+//		ввв
 	}
 }
