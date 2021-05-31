@@ -12,5 +12,6 @@ public class BadcodeApplication {
 		CalculatorService calculatorService = new CalculatorService();
 		calculatorService.getAverageBMI();
 //		ввв
+		//2
 	}
 }
